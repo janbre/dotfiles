@@ -1,0 +1,43 @@
+urxvt*tintColor: white
+urxvt*transparent:true
+urxvt*shading:40
+urxvt*background:Black
+urxvt*foreground:White
+urxvt*scrollBar:false
+urxvt*saveLines:65536
+
+!settings came from https://www.question-defense.com/2010/05/05/how-to-create-transparency-and-clickable-links-in-urxvt-terminal
+
+!-- Xft settings -- !
+Xft.antialias:  true
+
+! -- Fonts -- !
+URxvt.font:xft:Monospace:regular:size=8
+URxvt*letterSpace: -1
+
+! black
+*color0:  #2E3436
+*color8:  #555753
+! red
+*color1:  #a40000
+*color9:  #EF2929
+! green
+*color2:  #4E9A06
+*color10: #8AE234
+! yellow
+*color3:  #C4A000
+*color11: #FCE94F
+! blue
+*color4:  #3465A4
+*color12: #729FCF
+! purple
+*color5:  #75507B
+*color13: #AD7FA8
+! orange (replaces cyan)
+*color6:  #ce5c00
+*color14: #fcaf3e
+! white
+*color7:  #babdb9
+*color15: #EEEEEC
+
+!colors came from https://wiki.gentoo.org/wiki/Rxvt-unicode#Color_theme
